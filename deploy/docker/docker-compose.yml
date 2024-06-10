@@ -9,7 +9,7 @@ services:
     ports:
       - "8080:80"
     environment:
-      APPSMITH_ENCRYPTION_PASSWORD: abcd
-      APPSMITH_ENCRYPTION_SALT: abcd
+      APPSMITH_ENCRYPTION_PASSWORD: jCUsttd3ynGFZEb2NYP9
+      APPSMITH_ENCRYPTION_SALT: jCUsttd3ynGFZEb2NYP9
     volumes:
       - ./stacks:/appsmith-stacks
